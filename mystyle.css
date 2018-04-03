@@ -1,0 +1,84 @@
+.container {
+  margin: 0 auto;
+  width: 60%;
+  
+  
+  
+
+}
+.header {
+  margin: 10px auto;
+  position: relative;
+  width: 80%;
+  height: 80px;
+  background-color: #99CC99;
+  border-radius: 8px;
+  box-shadow: 0 0 5px #999;
+  -webkit-border-radius: 8px;
+  -webkit-box-shadow: 0 0 5px #999;
+  -moz-border-radius: 8px;
+  -moz-box-shadow: 0 0 5px #999
+  
+}
+.content {
+  margin: 3px auto;
+
+  width: 80%;
+  height: 1000px;
+  background-color: #FFFFFF;
+  border-radius: 8px;
+    box-shadow: 0 0 5px #999;
+    -webkit-border-radius: 8px;
+    -webkit-box-shadow: 0 0 5px #999;
+    -moz-border-radius: 8px;
+    -moz-box-shadow: 0 0 5px #999
+
+
+}
+
+
+
+.menu {
+  margin-right: 50px;
+  position: relative;
+  left: 25%;
+  top: 18%;
+  border: 1px solid black;
+  width: 150px;
+  height: 50px;
+  float: left; 
+  border-radius: 8px;
+  box-shadow: 0 0 5px #999;
+  -webkit-border-radius: 8px;
+  -webkit-box-shadow: 0 0 5px #999;
+  -moz-border-radius: 8px;
+  -moz-box-shadow: 0 0 5px #999
+
+}
+
+.link {
+  margin: 0 auto;
+  width: 130px;
+  height: 40px;
+}
+.link a {
+  display: block; /* Ссылка как блочный элемент */
+  text-align: center; /* Выравнивание по центру */
+  height: 100%; /* Высота на весь слой */
+  color: #666; /* Цвет ссылки */
+}
+
+.text_backgroud {
+  margin: 3px auto;
+
+  width: 70%;
+
+  background-color: #FFFFFF;
+  border-radius: 8px;
+    box-shadow: 0 0 5px #999;
+    -webkit-border-radius: 8px;
+    -webkit-box-shadow: 0 0 5px #999;
+    -moz-border-radius: 8px;
+    -moz-box-shadow: 0 0 5px #999
+
+}
