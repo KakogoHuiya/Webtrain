@@ -1,3 +1,8 @@
+@font-face {
+  font-family: 'Oliver-Bold';
+  src: url('/home/dds/html/res/fonts/Oliver-Bold.otf');
+  }
+
 .container {
   margin: 0 auto;
   width: 60%;
@@ -10,8 +15,8 @@
   margin: 10px auto;
   position: relative;
   width: 80%;
-  height: 80px;
-  background-color: #99CC99;
+  height: 100px;
+  background-color: #63AFD0;
   border-radius: 8px;
   box-shadow: 0 0 5px #999;
   -webkit-border-radius: 8px;
@@ -24,29 +29,21 @@
   margin: 3px auto;
 
   width: 80%;
-  height: 1000px;
-  background-color: #FFFFFF;
+  height: 700px;
   border-radius: 8px;
     box-shadow: 0 0 5px #999;
     -webkit-border-radius: 8px;
     -webkit-box-shadow: 0 0 5px #999;
     -moz-border-radius: 8px;
     -moz-box-shadow: 0 0 5px #999
-
-
 }
 
-
-
-.menu {
-  margin-right: 50px;
+.footer {
+  margin: 10px auto;
   position: relative;
-  left: 25%;
-  top: 18%;
-  border: 1px solid black;
-  width: 150px;
-  height: 50px;
-  float: left; 
+  width: 80%;
+  height: 70px;
+  background-color: #63AFD0;
   border-radius: 8px;
   box-shadow: 0 0 5px #999;
   -webkit-border-radius: 8px;
@@ -56,29 +53,89 @@
 
 }
 
-.link {
-  margin: 0 auto;
-  width: 130px;
-  height: 40px;
+.menu {
+  position: relative;
+  width: 100%;
+  height: 50%;
+  top: 30%;
+  left: 27%;
+  
+}  
+
+.menu ul{
+    list-style: none; /*убираем маркеры списка*/
+    margin: 0; /*убираем отступы*/
+    padding-left: 0; /*убираем отступы*/
 }
-.link a {
-  display: block; /* Ссылка как блочный элемент */
-  text-align: center; /* Выравнивание по центру */
-  height: 100%; /* Высота на весь слой */
-  color: #666; /* Цвет ссылки */
+.menu  a { 
+
+text-decoration: none; 
+color: rgb(255, 255, 255);
+position: relative;
+
 }
 
-.text_backgroud {
-  margin: 3px auto;
+.menu a:hover {
 
-  width: 70%;
 
-  background-color: #FFFFFF;
-  border-radius: 8px;
-    box-shadow: 0 0 5px #999;
-    -webkit-border-radius: 8px;
-    -webkit-box-shadow: 0 0 5px #999;
-    -moz-border-radius: 8px;
-    -moz-box-shadow: 0 0 5px #999
+}
+
+
+.menu li {
+display: inline-block;
+margin-right:5px; /*Добавляем отступ у пунктов меню*/
+padding: 10px;
+font-family: 'Oliver-Bold';
+font-size: 20px;
+
+}
+
+table {
+
+position: relative;
+top: 100px;
+left:23px;
+width: 700px;
+height: 100px;
+font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+font-size: 14px;
+text-align: left;
+border-collapse: collapse;
+border-radius: 20px;
+box-shadow: 0 0 0 10px #63AFD0;
+color: #452F21;
+}
+
+th {
+padding: 10px 8px;
+background: white;
+text-align: center;
+}
+table th:first-child {
+border-top-left-radius: 20px;
+}
+table th:last-child {
+border-top-right-radius: 20px;
+}
+td {
+border-top: 10px solid #63AFD0;
+padding: 8px;
+background: white;
+}
+table td:first-child {
+border-bottom-left-radius: 20px;
+}
+table td:last-child {
+border-bottom-right-radius: 20px;
+}
+
+.map {
+display: inline-block;
+position: relative;
+left: 10%;
+}
+.address {
+
+display: inline-block;
 
 }
